@@ -1,0 +1,17 @@
+#Materia{
+  height: 100%;
+  width: calc(100vw - 12%);
+  position: relative;
+  left: 6%;
+  box-sizing: border-box;
+  top: 0;
+}
+
+#Materia h2{
+  text-align: center;
+  padding-top: 12px;
+}
+
+#Materia p{
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+#Bar {
+  background: #d72681;
+  width: 12%;
+  height: 100vh;
+  position: fixed;
+  margin: 0;
+  left: 0;
+  top: 0;
+  min-width: 110px;
+  border-radius: 0 10px 10px 0;  
+}
+
+#Bar ul{
+  list-style: none;
+  margin: 10px 0;
+  padding: 0 4px 0 10px;
+}
+
+#Bar ul a{
+  text-decoration: none;
+  color:#420a0a;
+}
