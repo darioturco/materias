@@ -9,9 +9,15 @@
 
 #Materia h2{
   text-align: center;
+  max-width: calc(100vw - 12%);
+  left: 6%;
+  position: inherit;
   padding-top: 12px;
 }
 
 #Materia p{
   text-align: center;
+  max-width: calc(100vw - 12%);
+  left: 6%;
+  position: inherit;
 }

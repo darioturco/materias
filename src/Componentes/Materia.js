@@ -15,8 +15,6 @@ function Materia(props) {
     <div id="Materia">
       <materiasContext.Consumer>
         {(materias) => {
-        console.log(materias);
-        console.log(props.match.params.mat);
         let index = getIndex(materias, props.match.params.mat);
         if(index == -1){
           return (<h2>Materia no encontrada.</h2>);
@@ -24,7 +22,11 @@ function Materia(props) {
           return(
             <>
               <h2>{props.match.params.mat}</h2>
-              <p>Una materia muy linda blalbablablablabl</p>
+              <p>{materias[index].description}</p>
+              <p>Temas: {materias[index].temas}</p>
+              <p>Temas Faltantes: {materias[index].faltantes}</p>
+              <p>Dificultad: {materias[index].dificultad}</p>
+              <p>Dificultad final: {materias[index].final}</p>
             </>
           );
         }

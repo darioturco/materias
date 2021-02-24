@@ -21,7 +21,7 @@ function Bar() {
           {materias => (
           <div>
             {materias.map((mat, i) => {
-              return <Link key={i} to={'/' + mat}><li>{mat}</li></Link>
+              return <Link key={i} to={'/' + mat.nombre}><li>{mat.nombre}</li></Link>
             })}
           </div>)}
         </materiasContext.Consumer>
